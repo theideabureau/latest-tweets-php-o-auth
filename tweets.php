@@ -73,7 +73,7 @@
 		// Twitter keys (You'll need to visit https://dev.twitter.com and register to get these.
 		$consumerkey         = getenv('CONSUMERKEY');
 		$consumersecret      = getenv('CONSUMERSECRET');
-		$accesstoken         = getenv('ACCECCTOKEN');
+		$accesstoken         = getenv('ACCESSTOKEN');
 		$accesstokensecret   = getenv('ACCESSTOKENSECRET');
 		
 		// Seconds to cache feed (Default : 3 minutes).
