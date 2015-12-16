@@ -68,10 +68,10 @@
 		$twitter_style_dates = true){           // Twitter style days. [about an hour ago] (Default : true)
 			
 		// Twitter keys (You'll need to visit https://dev.twitter.com and register to get these.
-		$consumerkey         = "xxxxxxxxxxxxxxxxxxxxxxxxxxx";
-		$consumersecret      = "xxxxxxxxxxxxxxxxxxxxxxxxxxx";
-		$accesstoken         = "xxxxxxxxxxxxxxxxxxxxxxxxxxx";
-		$accesstokensecret   = "xxxxxxxxxxxxxxxxxxxxxxxxxxx";
+		$consumerkey         = getenv('CONSUMERKEY');
+		$consumersecret      = getenv('CONSUMERSECRET');
+		$accesstoken         = getenv('ACCECCTOKEN');
+		$accesstokensecret   = getenv('ACCESSTOKENSECRET');
 		
 		// Seconds to cache feed (Default : 3 minutes).
 		$cachetime           = 60*3;
