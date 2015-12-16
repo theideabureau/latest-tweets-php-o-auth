@@ -118,7 +118,7 @@
 					// Iterate over tweets.
 					foreach ( $get_tweets as $tweet ) {
 
-						$tweets[$tweet->id]['id'] = $tweet->id;
+						$tweets[$tweet->id]['id'] = $tweet->id_str;
 						$tweets[$tweet->id]['created_at'] = $tweet->created_at;
 
 						$tweet_found = true;
@@ -203,7 +203,7 @@
 					$file = fopen($cache_file, 'w');
  
 					// Save the contents of output buffer to the file, and flush the buffer. 
-					fwrite($file, json_encode($tweets)); 
+					fwrite($file, json_encode($output)); 
 					fclose($file);
 					
 				}
