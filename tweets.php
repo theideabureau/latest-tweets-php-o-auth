@@ -1,5 +1,8 @@
 <?php
 
+	// allow access from all origins
+	header('Access-Control-Allow-Origin: *');
+
 	/**
 	 * Twitter feed which uses twitteroauth for authentication
 	 * 
