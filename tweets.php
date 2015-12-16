@@ -86,7 +86,7 @@
 		$tweet_found         = false;
 		
 		// Show cached version of tweets, if it's less than $cachetime.
-		if ( time() - $cachetime < $cache_file_created AND FALSE ) {
+		if ( time() - $cachetime < $cache_file_created ) {
 
 			$tweet_found = true;
 
