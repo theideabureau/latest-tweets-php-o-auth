@@ -225,6 +225,6 @@
 	}
 	
 	// Display latest tweets. (Modify username to your Twitter handle)
-	display_latest_tweets('samknows');
+	display_latest_tweets('theideabureau');
 
 ?>
